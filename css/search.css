@@ -1,0 +1,32 @@
+#searchBox{
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    max-width: 1000px;
+    padding: 8px 0;
+    display: none;
+    background-image: -webkit-linear-gradient(#FAFAFA,#AAA);
+    background-image: -moz-linear-gradient(#FAFAFA,#AAA);
+    background-image: -ms-linear-gradient(#FAFAFA,#AAA);
+    background-image: -o-linear-gradient(#FAFAFA,#AAA);
+    background-image: linear-gradient(#FAFAFA,#AAA);
+    position: fixed;
+    bottom: 0;
+}
+#searchBox .searchWrapper{
+    max-width: 760px;
+}
+#searchBox label{
+    max-width: 80px;
+    min-width: 80px;
+}
+#searchBox .search{
+    max-width: 600px;
+    width: 60%;
+    display: inline;
+    vertical-align: middle;
+    margin: 0 8px;
+}
+#searchBox .save{
+
+}

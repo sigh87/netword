@@ -1,0 +1,51 @@
+#menuBox{
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 100%;
+    position: relative;
+    border-bottom: solid 1px black;
+}
+#menuBox .menuBtn:hover{
+    background-image: -webkit-linear-gradient(#FCFED3,#FEBF18);
+    background-image: -moz-linear-gradient(#FCFED3,#FEBF18);
+    background-image: -ms-linear-gradient(#FCFED3,#FEBF18);
+    background-image: -o-linear-gradient(#FCFED3,#FEBF18);
+    background-image: linear-gradient(#FCFED3,#FEBF18);
+}
+#menuBox .menuBtn{
+    min-width: 80px;
+    height: 40px;
+    border-right: solid 1px black;
+    padding: 6px;
+    cursor: pointer;
+    background-image: -webkit-linear-gradient(#FCDE53,#FEBF18);
+    background-image: -moz-linear-gradient(#FCDE53,#FEBF18);
+    background-image: -ms-linear-gradient(#FCDE53,#FEBF18);
+    background-image: -o-linear-gradient(#FCDE53,#FEBF18);
+    background-image: linear-gradient(#FCDE53,#FEBF18);
+    text-align: center;
+    
+}
+#menuBox .activeMenuBtn:hover{
+    background-image: -webkit-linear-gradient(#97DEFA,#5D8EB5);
+    background-image: -moz-linear-gradient(#97DEFA,#5D8EB5);
+    background-image: -ms-linear-gradient(#97DEFA,#5D8EB5);
+    background-image: -o-linear-gradient(#97DEFA,#5D8EB5);
+    background-image: linear-gradient(#97DEFA,#5D8EB5);
+}
+#menuBox .activeMenuBtn{
+    background-image: -webkit-linear-gradient(#87CEFA,#5D8EB5);
+    background-image: -moz-linear-gradient(#87CEFA,#5D8EB5);
+    background-image: -ms-linear-gradient(#87CEFA,#5D8EB5);
+    background-image: -o-linear-gradient(#87CEFA,#5D8EB5);
+    background-image: linear-gradient(#87CEFA,#5D8EB5);
+}
+#menuBox #menuHome{
+}
+#menuBox #menuAdd{
+}
+#menuBox #menuAboutUs{
+}
+#menuBox #menuSearch{
+    
+}
